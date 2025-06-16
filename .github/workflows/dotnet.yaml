@@ -48,7 +48,7 @@ jobs:
           name: EdFi.OdsApi.Sdk
           path: EdFi.OdsApi.Sdk/bin/Debug/net8.0/**/*
       - name: EdFi.OdsApi.Sdk - Package
-        run: dotnet pack -c Release -o "pack/" -property:commit=$COMMIT
+        run: dotnet pack -c Release -o "pack/" -property:commit=$COMMIT -property:NuspecFile=EdFi.OdsApi.Sdk.nuspec
         env:
           COMMIT: ${{ github.sha }}
         working-directory: EdFi.OdsApi.Sdk/
