@@ -24,7 +24,7 @@ jobs:
         uses: vers-one/dotnet-project-version-updater@v1.7
         with:
           file: |
-            "src/**/*.csproj", "src/**/*.nuspec", "src/**/AssemblyInfo.cs"
+            "EdFi.OdsApi.Sdk/**/*.csproj", "EdFi.OdsApi.Sdk/**/*.nuspec", "EdFi.OdsApi.Sdk/**/AssemblyInfo.cs"
           version: bump-build
       - name: Commit build version
         run: |
