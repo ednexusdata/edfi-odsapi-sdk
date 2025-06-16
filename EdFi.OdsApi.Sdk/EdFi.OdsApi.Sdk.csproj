@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\EdFi.OdsApi.Sdk.v54\src\EdFi.OdsApi.Sdk.v54\EdFi.OdsApi.Sdk.v54.csproj" />
+    <ProjectReference Include="..\EdFi.OdsApi.Sdk.v62\src\EdFi.OdsApi.Sdk.v62\EdFi.OdsApi.Sdk.v62.csproj" />
+    <ProjectReference Include="..\EdFi.OdsApi.Sdk.v71\src\EdFi.OdsApi.Sdk.v71\EdFi.OdsApi.Sdk.v71.csproj" />
+    <ProjectReference Include="..\EdFi.OdsApi.Sdk.v72\src\EdFi.OdsApi.Sdk.v72\EdFi.OdsApi.Sdk.v72.csproj" />
+    <ProjectReference Include="..\EdFi.OdsApi.Sdk.v73\src\EdFi.OdsApi.Sdk.v73\EdFi.OdsApi.Sdk.v73.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
