@@ -16,7 +16,7 @@
 
   <PropertyGroup>
     <PackageId>EdFi.OdsApi.Sdk</PackageId>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <Authors>Makoa Jacobsen</Authors>
     <Description>Standard EdFi ODS API client libraries</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
