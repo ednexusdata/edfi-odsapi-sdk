@@ -21,6 +21,7 @@
     <Description>Standard EdFi ODS API client libraries</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/ednexusdata</RepositoryUrl>
+    <IncludeReferencedProjects>true</IncludeReferencedProjects>
   </PropertyGroup>
 
 </Project>
