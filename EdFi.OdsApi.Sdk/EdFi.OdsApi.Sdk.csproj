@@ -14,4 +14,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>EdFi.OdsApi.Sdk</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Makoa Jacobsen</Authors>
+    <Description>Standard EdFi ODS API client libraries</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/ednexusdata</RepositoryUrl>
+  </PropertyGroup>
+
 </Project>
