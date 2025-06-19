@@ -9,16 +9,10 @@
     <description>EdFi OdsApi SDK with base types</description>
     <repository type="git" url="https://github.com/ednexusdata/edfi-odsapi-sdk" commit="$commit$" />
     <dependencies>
-      <group targetFramework="net8.0">
-        <dependency id="EdFi.OdsApi.Sdk.v54" version="*" exclude="Build,Analyzers" />
-        <dependency id="EdFi.OdsApi.Sdk.v62" version="*" exclude="Build,Analyzers" />
-        <dependency id="EdFi.OdsApi.Sdk.v71" version="*" exclude="Build,Analyzers" />
-        <dependency id="EdFi.OdsApi.Sdk.v72" version="*" exclude="Build,Analyzers" />
-        <dependency id="EdFi.OdsApi.Sdk.v73" version="*" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net8.0" />
     </dependencies>
   </metadata>
    <files>
-     <file src="bin\Release\net8.0\EdFi.OdsApi.Sdk.*.dll" target="lib\net8.0" />
+     <file src="bin\Release\net8.0\EdFi.OdsApi.Sdk.dll" target="lib\net8.0\" />
   </files>
 </package>
