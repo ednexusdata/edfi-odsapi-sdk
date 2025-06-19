@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>EdFi.OdsApi.Sdk</PackageId>
+    <Version>1.0.6</Version>
+    <Authors>Makoa Jacobsen</Authors>
+    <Description>Standard EdFi ODS API client libraries</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/ednexusdata</RepositoryUrl>
+    <IncludeReferencedProjects>true</IncludeReferencedProjects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v54" Version="1.*" />
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v62" Version="1.*" />
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v71" Version="1.*" />
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v72" Version="1.*" />
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v73" Version="1.*" />
+  </ItemGroup>
+
+</Project>
