@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>EdFi.OdsApi.Sdk</PackageId>
+    <PackageId>EdNexusData.EdFi.OdsApi.Sdk</PackageId>
     <Version>1.0.9</Version>
     <Authors>Makoa Jacobsen</Authors>
     <Description>Standard EdFi ODS API client libraries</Description>
