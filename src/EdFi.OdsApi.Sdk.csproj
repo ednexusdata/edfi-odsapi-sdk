@@ -17,11 +17,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v54" Version="1.*" />
-    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v62" Version="1.*" />
-    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v71" Version="1.*" />
-    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v72" Version="1.*" />
-    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v73" Version="1.*" />
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v54" Version="1.*">
+        <NoWarn>NU1603</NoWarn>
+    </PackageReference>
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v62" Version="1.*">
+        <NoWarn>NU1603</NoWarn>
+    </PackageReference>
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v71" Version="1.*">
+        <NoWarn>NU1603</NoWarn>
+    </PackageReference>
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v72" Version="1.*">
+        <NoWarn>NU1603</NoWarn>
+    </PackageReference>
+    <PackageReference Include="EdNexusData.EdFi.OdsApi.Sdk.v73" Version="1.*">
+        <NoWarn>NU1603</NoWarn>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
