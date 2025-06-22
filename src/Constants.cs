@@ -2,7 +2,7 @@
 
 public class Constants
 {
-    public Dictionary<string, string> Versions = new Dictionary<string, string>()
+    public static Dictionary<string, string> Versions = new Dictionary<string, string>()
     {
         { "EDFI_ODSAPI_SDK_V54", "v54" },
         { "EDFI_ODSAPI_SDK_V62", "v62" },
