@@ -4,11 +4,11 @@ public class Constants
 {
     public static Dictionary<string, string> Versions = new Dictionary<string, string>()
     {
-        { "EDFI_ODSAPI_SDK_V54", "v54" },
-        { "EDFI_ODSAPI_SDK_V62", "v62" },
-        { "EDFI_ODSAPI_SDK_V71", "v71" },
-        { "EDFI_ODSAPI_SDK_V72", "v72" },
-        { "EDFI_ODSAPI_SDK_V73", "v73" }
+        { "EDFI_ODSAPI_SDK_V54", "v5.4" },
+        { "EDFI_ODSAPI_SDK_V62", "v6.2" },
+        { "EDFI_ODSAPI_SDK_V71", "v7.1" },
+        { "EDFI_ODSAPI_SDK_V72", "v7.2" },
+        { "EDFI_ODSAPI_SDK_V73", "v7.3" }
     };
 
     public const string EDFI_ODSAPI_SDK_V54 = "EdFi.OdsApi.Sdk.v54";
