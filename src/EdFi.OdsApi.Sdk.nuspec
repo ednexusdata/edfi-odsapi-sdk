@@ -19,6 +19,6 @@
     </dependencies>
   </metadata>
    <files>
-     <file src="bin\Release\net8.0\EdFi.OdsApi.Sdk.dll" target="lib\net8.0\" />
+     <file src="bin\Release\net10.0\EdFi.OdsApi.Sdk.dll" target="lib\net10.0\" />
   </files>
 </package>
